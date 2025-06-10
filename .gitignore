@@ -1,0 +1,7 @@
+features/
+__pycache__/
+*.pyc
+*.h5
+*.pkl
+.DS_Store
+.env

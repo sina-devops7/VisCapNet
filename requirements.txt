@@ -1,0 +1,9 @@
+tensorflow
+keras
+numpy
+tqdm
+gradio
+Pillow
+nltk
+kagglehub
+matplotlib
