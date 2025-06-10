@@ -20,3 +20,6 @@ We use the [Flickr8k](https://www.kaggle.com/datasets/adityajn105/flickr8k) data
 git clone https://github.com/yourusername/image-captioning.git
 cd image-captioning
 pip install -r requirements.txt
+=======
+# VisCapNet
+Deep learning-based image captioning system leveraging EfficientNet and GloVe embeddings to generate accurate captions for images.
