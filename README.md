@@ -7,7 +7,7 @@ This repository contains a deep learning pipeline for generating captions from i
 - **Gradio** for an interactive UI
 
 
-[VisCapNet Project Hero Image]https://s6.uupload.ir/files/d1989b39-5e67-493f-851d-4b50e29ef051_wx2w.png
+![VisCapNet Project Hero Image](https://s6.uupload.ir/files/d1989b39-5e67-493f-851d-4b50e29ef051_wx2w.png)
 
 
 ---
