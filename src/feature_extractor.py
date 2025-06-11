@@ -1,41 +1,60 @@
-# src/feature_extractor.py
-
 import os
-import numpy as np
+import pickle
 from tqdm import tqdm
-from PIL import Image
-import tensorflow as tf
-from tensorflow.keras.applications import EfficientNetB0
-from tensorflow.keras.applications.efficientnet import preprocess_input
+from tensorflow.keras.applications.efficientnet import EfficientNetB0, preprocess_input
+from tensorflow.keras.preprocessing.image import load_img, img_to_array
+import numpy as np
 
 
-def build_feature_extractor():
-    base_model = EfficientNetB0(
-        include_top=False, weights='imagenet', pooling='avg')
-    return tf.keras.Model(inputs=base_model.input, outputs=base_model.output)
+def load_efficientnetb0():
+    """
+    لود EfficientNetB0 با همان تنظیمات نوت‌بوک.
+    """
+    model = EfficientNetB0(
+        weights='imagenet',
+        include_top=False,
+        pooling='avg'
+    )
+    model.summary()
+    return model
 
 
-def load_and_preprocess_image(image_path, target_size=(224, 224)):
-    img = Image.open(image_path).convert('RGB')
-    img = img.resize(target_size)
-    img = np.array(img)
-    img = preprocess_input(img)
-    return img
-
-
-def extract_features(image_dir, image_list, model):
+def extract_features(model, images_dir):
+    """
+    استخراج feature همه تصاویر یک پوشه
+    ورودی:
+      - model : مدل EfficientNet
+      - images_dir : مسیر پوشه تصاویر (مثلاً BASE_DIR + '/Images')
+    خروجی:
+      - dict از image_id -> feature (np array)
+    """
     features = {}
-    for image_id in tqdm(image_list):
-        image_path = os.path.join(image_dir, image_id)
-        img = load_and_preprocess_image(image_path)
-        img = np.expand_dims(img, axis=0)
-        feature = model.predict(img, verbose=0)
-        features[image_id] = feature[0]
+    for img_name in tqdm(os.listdir(images_dir)):
+        img_path = os.path.join(images_dir, img_name)
+        image = load_img(img_path, target_size=(224, 224))
+        image = img_to_array(image)
+        image = image.reshape(
+            (1, image.shape[0], image.shape[1], image.shape[2]))
+        image = preprocess_input(image)
+        feature = model.predict(image, verbose=0)
+        image_id = img_name.split('.')[0]
+        features[image_id] = feature
     return features
 
 
-def save_features(features, output_path):
-    import pickle
-    with open(output_path, 'wb') as f:
+def save_features(features, save_path):
+    """
+    ذخیره dict استخراج‌شده به pickle
+    """
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+    with open(save_path, 'wb') as f:
         pickle.dump(features, f)
-    print(f'✅ Features saved to: {output_path}')
+
+
+def load_features(load_path):
+    """
+    لود pickle فایل featureها
+    """
+    with open(load_path, 'rb') as f:
+        features = pickle.load(f)
+    return features
