@@ -6,6 +6,10 @@ This repository contains a deep learning pipeline for generating captions from i
 - **GloVe word embeddings**
 - **Gradio** for an interactive UI
 
+
+[VisCapNet Project Hero Image]https://s6.uupload.ir/files/d1989b39-5e67-493f-851d-4b50e29ef051_wx2w.png
+
+
 ---
 
 ## 📁 Dataset
@@ -23,3 +27,5 @@ pip install -r requirements.txt
 =======
 # VisCapNet
 Deep learning-based image captioning system leveraging EfficientNet and GloVe embeddings to generate accurate captions for images.
+
+
