@@ -98,6 +98,26 @@ For a truly immersive experience and an in-depth look at the entire pipeline –
 ---
 
 
+---
+
+## 📈 Results
+
+### 📊 **BLEU scores on test set:**  
+`🌟 BLEU-1: 0.6198` &nbsp;&nbsp;|&nbsp;&nbsp; `✨ BLEU-2: 0.4389` &nbsp;&nbsp;|&nbsp;&nbsp; `🎯 BLEU-3: 0.3078` &nbsp;&nbsp;|&nbsp;&nbsp; `🏅 BLEU-4: 0.2121`
+
+---
+
+#### 🔍 **Interpretation**
+- 📝 **BLEU-1** (~0.62): Good word overlap; model uses correct content words
+- 🧩 **BLEU-4** (~0.21): Meaningful phrase reproduction, competitive for Flickr8k
+- 🏞️ **Benchmarks**: BLEU-1 > 0.6 and BLEU-4 > 0.2 = Very Good
+
+> These scores mean the model generates contextually accurate, fluent captions for natural images.  
+> See paper benchmarks: [Karpathy & Fei-Fei 2015](https://arxiv.org/abs/1411.4555)
+
+
+---
+
 ## 🚀 Quickstart
 
 👨‍💻 **In Google Colab?**  
@@ -166,22 +186,6 @@ def plot_sample_images(mapping, base_dir, n=4):
 8. **Evaluation/Prediction:** BLEU scores, sample generations.
 9. **Web UI:** Gradio app for upload & caption!
 
----
-
-## 📈 Results
-
-### 📊 **BLEU scores on test set:**  
-`🌟 BLEU-1: 0.6198` &nbsp;&nbsp;|&nbsp;&nbsp; `✨ BLEU-2: 0.4389` &nbsp;&nbsp;|&nbsp;&nbsp; `🎯 BLEU-3: 0.3078` &nbsp;&nbsp;|&nbsp;&nbsp; `🏅 BLEU-4: 0.2121`
-
----
-
-#### 🔍 **Interpretation**
-- 📝 **BLEU-1** (~0.62): Good word overlap; model uses correct content words
-- 🧩 **BLEU-4** (~0.21): Meaningful phrase reproduction, competitive for Flickr8k
-- 🏞️ **Benchmarks**: BLEU-1 > 0.6 and BLEU-4 > 0.2 = Very Good
-
-> These scores mean the model generates contextually accurate, fluent captions for natural images.  
-> See paper benchmarks: [Karpathy & Fei-Fei 2015](https://arxiv.org/abs/1411.4555)
 
 ---
 
