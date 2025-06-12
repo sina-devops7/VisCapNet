@@ -94,7 +94,7 @@ For a truly immersive experience and an in-depth look at the entire pipeline –
 <p align="center">
   <img src="https://s6.uupload.ir/files/screenshot_2025-06-12_192504_oses.png" width="1000" alt="VisCapNet Project Hero"/>
 </p>
----
+
 
 
 
