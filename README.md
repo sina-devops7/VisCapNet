@@ -209,10 +209,11 @@ See `LICENSE` for details.
 </p>
 ```
 
----
 
-======
 # VisCapNet
 Deep learning-based image captioning system leveraging EfficientNet and GloVe embeddings to generate accurate captions for images.
+image-caption-generator-using-cnn-lstm
+image captioning using deep learning
+image captioning flickr8k
 
 
