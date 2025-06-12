@@ -75,7 +75,9 @@ VisCapNet is an end-to-end deep learning pipeline that **automatically generates
 
 For a truly immersive experience and an in-depth look at the entire pipeline – from data preprocessing and model architecture details to the comprehensive training logs, evaluation metrics, and hands-on testing – we invite you to explore our main Jupyter Notebook:
 
-[**`VisCapNet : Deep-Image-Captioning-with-EfficientNet-LSTM-GloVe-Flickr8k.ipynb`**](https://colab.research.google.com/drive/1OkJq4XvClXagcUQMzVF0ROouFTrlMgMT?usp=sharing)
+<a href="https://colab.research.google.com/drive/1OkJq4XvClXagcUQMzVF0ROouFTrlMgMT?usp=sharing" target="_blank">
+  <b>`VisCapNet : Deep-Image-Captioning-with-EfficientNet-LSTM-GloVe-Flickr8k.ipynb`</b>
+</a>
 
 
 
@@ -83,15 +85,15 @@ For a truly immersive experience and an in-depth look at the entire pipeline –
 
 
 <p align="center">
-  <img src="https://s6.uupload.ir/files/screenshot_2025-06-12_191208_aqwr.png" width="600" alt="VisCapNet Project Hero"/>
+  <img src="https://s6.uupload.ir/files/screenshot_2025-06-12_191208_aqwr.png" width="1000" alt="VisCapNet Project Hero"/>
 </p>
 
 <p align="center">
-  <img src="https://s6.uupload.ir/files/screenshot_2025-06-12_191011_6gi.png" width="600" alt="VisCapNet Project Hero"/>
+  <img src="https://s6.uupload.ir/files/screenshot_2025-06-12_191011_6gi.png" width="1000" alt="VisCapNet Project Hero"/>
 </p>
 
 <p align="center">
-  <img src="https://s6.uupload.ir/files/screenshot_2025-06-12_192504_oses.png" width="600" alt="VisCapNet Project Hero"/>
+  <img src="https://s6.uupload.ir/files/screenshot_2025-06-12_192504_oses.png" width="1000" alt="VisCapNet Project Hero"/>
 </p>
 ---
 
