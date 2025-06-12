@@ -168,12 +168,6 @@ launch_gradio_app(model, tokenizer, max_length)
 
 ---
 
-## 🦾 Full Model Diagram
-
-<img src="image.png" alt="Model Architecture" width="80%">
-
----
-
 ## 🛠️ Advanced Features
 
 - **LSTM decoder** with `mask_zero` for true padding
