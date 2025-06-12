@@ -18,11 +18,6 @@ This repository contains a deep learning pipeline for generating captions from i
 
 We use the [Flickr8k](https://www.kaggle.com/datasets/adityajn105/flickr8k) dataset. Captions and images are loaded via `kagglehub`.
 
----
-
-حتماً سینا! یک README.md کامل و مدرن، با لحن حرفه‌ای و پر از نکات جذاب (همان چیزی که پروژه‌های تاپ GitHub دارند!) بر اساس معماری، نتایج و تجربه کار شما در Colab/کدهای مدولار و توضیحاتت آماده کردم. با لحن انگلیسی حرفه‌ای، تزیین با ایموجی، و کاملاً آماده استفاده برای GitHub:
-
----
 
 ```markdown
 <p align="center">
