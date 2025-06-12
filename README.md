@@ -69,7 +69,6 @@ VisCapNet is an end-to-end deep learning pipeline that **automatically generates
 
 ---
 
----
 
 ## ✨ Dive Deeper: The Full Project Unveiled!
 
@@ -98,7 +97,6 @@ For a truly immersive experience and an in-depth look at the entire pipeline –
 ---
 
 
----
 
 ## 📈 Results
 
