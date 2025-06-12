@@ -83,15 +83,15 @@ For a truly immersive experience and an in-depth look at the entire pipeline –
 
 
 <p align="center">
-  <img src="https://s6.uupload.ir/files/screenshot_2025-06-12_191208_aqwr.png" width="350" alt="VisCapNet Project Hero"/>
+  <img src="https://s6.uupload.ir/files/screenshot_2025-06-12_191208_aqwr.png" width="600" alt="VisCapNet Project Hero"/>
 </p>
 
 <p align="center">
-  <img src="https://s6.uupload.ir/files/screenshot_2025-06-12_191011_6gi.png" width="350" alt="VisCapNet Project Hero"/>
+  <img src="https://s6.uupload.ir/files/screenshot_2025-06-12_191011_6gi.png" width="600" alt="VisCapNet Project Hero"/>
 </p>
 
 <p align="center">
-  <img src="https://s6.uupload.ir/files/screenshot_2025-06-12_192504_oses.png" width="350" alt="VisCapNet Project Hero"/>
+  <img src="https://s6.uupload.ir/files/screenshot_2025-06-12_192504_oses.png" width="600" alt="VisCapNet Project Hero"/>
 </p>
 ---
 
