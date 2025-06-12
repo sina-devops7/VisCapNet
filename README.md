@@ -238,13 +238,15 @@ See `LICENSE` for details.
 <p align="center">
   <b>⭐️ Star the repo for future updates! PRs, issues, and feedback very welcome :)</b>
 </p>
-```
 
 
 # VisCapNet
 Deep learning-based image captioning system leveraging EfficientNet and GloVe embeddings to generate accurate captions for images.
+
 image-caption-generator-using-cnn-lstm
+
 image captioning using deep learning
+
 image captioning flickr8k
 
 
