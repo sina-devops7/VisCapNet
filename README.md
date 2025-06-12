@@ -211,9 +211,7 @@ See `LICENSE` for details.
 
 ---
 
-**✅ اگر جای خاصی نیاز داری بیشتر فارسی/بیشتر انگلیسی، یا بخوای هر بخشی گسترش بدی/حذف کنی بگو. این نمونه کاملاً آماده README.md برای گیت‌هاب است و الهام‌گرفته از پروژه‌های حرفه‌ای ML دنیا!**
-pip install -r requirements.txt
-=======
+======
 # VisCapNet
 Deep learning-based image captioning system leveraging EfficientNet and GloVe embeddings to generate accurate captions for images.
 
