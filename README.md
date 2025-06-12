@@ -20,7 +20,7 @@ We use the [Flickr8k](https://www.kaggle.com/datasets/adityajn105/flickr8k) data
 
 
 <p align="center">
-  <img src="https://s6.uupload.ir/files/ai_captioning_in_a_high-tech_landscape_5nzk.png" width="200" alt="VisCapNet Hero Logo"/>
+  <img src="https://s6.uupload.ir/files/ai_captioning_in_a_high-tech_landscape_5nzk.png" width="550" alt="VisCapNet Hero Logo"/>
   <br><br>
   <b><big>VisCapNet: Deep Image Captioning with EfficientNet & LSTM</big></b>
   <br>
