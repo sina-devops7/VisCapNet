@@ -19,7 +19,6 @@ This repository contains a deep learning pipeline for generating captions from i
 We use the [Flickr8k](https://www.kaggle.com/datasets/adityajn105/flickr8k) dataset. Captions and images are loaded via `kagglehub`.
 
 
-```markdown
 <p align="center">
   <img src="https://s6.uupload.ir/files/d1989b39-5e67-493f-851d-4b50e29ef051_wx2w.png" width="200" alt="VisCapNet Hero Logo"/>
   <br><br>
