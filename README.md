@@ -77,8 +77,22 @@ For a truly immersive experience and an in-depth look at the entire pipeline –
 
 [**`VisCapNet : Deep-Image-Captioning-with-EfficientNet-LSTM-GloVe-Flickr8k.ipynb`**](https://colab.research.google.com/drive/1OkJq4XvClXagcUQMzVF0ROouFTrlMgMT?usp=sharing)
 
+
+
 > 🚀 This notebook isn't just code; it's a guided tour through every crucial step, allowing you to re-run experiments, inspect intermediate results, and truly grasp the magic behind VisCapNet. Get ready for a hands-on journey from pixels to eloquent captions!
 
+
+<p align="center">
+  <img src="https://s6.uupload.ir/files/screenshot_2025-06-12_191208_aqwr.png" width="350" alt="VisCapNet Project Hero"/>
+</p>
+
+<p align="center">
+  <img src="https://s6.uupload.ir/files/screenshot_2025-06-12_191011_6gi.png" width="350" alt="VisCapNet Project Hero"/>
+</p>
+
+<p align="center">
+  <img src="https://s6.uupload.ir/files/screenshot_2025-06-12_192504_oses.png" width="350" alt="VisCapNet Project Hero"/>
+</p>
 ---
 
 
