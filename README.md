@@ -41,7 +41,7 @@ VisCapNet is an end-to-end deep learning pipeline that **automatically generates
 
 ## 🏗️ Model Architecture
 
-<img src="https://s6.uupload.ir/files/model_dnxn.png" alt="Model Architecture" width="65%">
+<img src="https://s6.uupload.ir/files/model_dnxn.png" alt="Model Architecture" width="95%">
 
 ### 🚀 **Encoder–Decoder (Show and Tell Style)**
 
