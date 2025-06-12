@@ -69,6 +69,19 @@ VisCapNet is an end-to-end deep learning pipeline that **automatically generates
 
 ---
 
+---
+
+## ✨ Dive Deeper: The Full Project Unveiled!
+
+For a truly immersive experience and an in-depth look at the entire pipeline – from data preprocessing and model architecture details to the comprehensive training logs, evaluation metrics, and hands-on testing – we invite you to explore our main Jupyter Notebook:
+
+[**`VisCapNet : Deep-Image-Captioning-with-EfficientNet-LSTM-GloVe-Flickr8k.ipynb`**](https://colab.research.google.com/drive/1OkJq4XvClXagcUQMzVF0ROouFTrlMgMT?usp=sharing)
+
+> 🚀 This notebook isn't just code; it's a guided tour through every crucial step, allowing you to re-run experiments, inspect intermediate results, and truly grasp the magic behind VisCapNet. Get ready for a hands-on journey from pixels to eloquent captions!
+
+---
+
+
 ## 🚀 Quickstart
 
 👨‍💻 **In Google Colab?**  
